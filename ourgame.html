@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Games</title>
+</head>
+<body>
+  <nav>
+    <a href="about.html">ABOUT</a>
+    <a href="faq.html">FAQ</a>
+    <a href="marketplace.html">MARKETPLACE</a>
+    <a href="index.html">TRANG CHỦ</a>
+  </nav>
+  <style>
+    body{
+      background-color: black;
+    }
+    h1
+    {
+      font-family: Courier;
+      text-align: center;
+      color: red;
+    }
+    h3{
+      font-family: Courier;
+      text-align: center;
+      color: red;
+    }
+    h4{
+      font-family: Courier;
+      color: red;
+    }
+    p{
+      font-family: Courier;
+      color: red;
+    }
+    h2{
+      font-family: Courier;
+      text-align: center;
+      color: red;
+    }
+    #bam vao day de nghe nhac{
+      color: red;
+      font-family: Courier;
+    }
+    #current-time{
+      color: red;
+      font-family: Courier;
+    }
+  </style>
+  <h1>Our Games:</h1>
+  <hr>
+  <h3>Tất cả các dự án game kinh dị này được làm bằng engine Unity nên đồ họa ổn và hoàn toàn chơi được trên máy yếu nên hoàn toàn yên tâm trải nghiệm nhaaaaaa =)))))</h3>
+  <h3>Oh nếu bạn nào thấy sợ,yếu tim thì đừng chơi nhé,mình khuyên trước rồi đấy ;)</h3>
+  <audio controls autoplay>
+    <source src="nhạc/Slender.mp3" type="audio/mpeg"><!--Cho nhạc vào trong web-->
+    <source src="nhạc/Slender.mp3" type="audio/ogg">
+  </audio>
+  <p id="bam vao day de nghe nhac">À quên bạn muốn cái website nó sợ hơn không? Nhất vào audio ở trên để nghe nhạc nhé ;)</p>
+  <h4>Slender The Myth (đang tiếp tục làm,phiên bản 0.2.2a)</h4>
+  <p>Bạn lạc trong 1 khu rừng và bạn bị kẹt ở đó,nhiệm vụ của bạn là phải tìm 8 tờ giấy để chiến thắng,nếu không,Slender Man sẽ giết bạn =)))))</p>
+  <p>Dự định tương lai game sẽ có cốt chuyện đàng hoàng và sẽ cải thiện gameplay nha,hiện tại thì lười quá nên không thể làm tiếp được hihi</p>
+  <a href="https://drive.google.com/drive/folders/18DSbTCy8983DnrGnOvxEeQC9n94BiW9Y">Tải game tại đây</a>
+  <br>
+  <h4>Out of fuel (sắp hoàn thành,phiên bản 0.1)</h4>
+  <p>Bạn đang đi xe máy băng qua 1 khu rừng,bỗng dưng xe của bạn bị hết xăng và bạn phải tự tìm cái bình xăng để tiếp tục đi,nhưng liệu mọi chuyện có dễ dàng hay không?</p>
+ <p>Khi nào game xong thì tôi sẽ để link ở đây để mọi người chơi ;)</p>
+ <h2>Có thể trong tương lai tôi sẽ làm ra nhiều con game kinh dị indie hơn nữa nên là hãy chờ đón xem nhé ;)</h2>
+ <h3>@2022 Lê Nhật Quang (Pavel Aleksandrovich Komissarov)</h3>
+ <div id="current-time"></div>
+<script>
+    var curDate = new Date();
+      
+    // Ngày hiện tại
+    var curDay = curDate.getDate();
+ 
+    // Tháng hiện tại
+    var curMonth = curDate.getMonth() + 1;
+      
+    // Năm hiện tại
+    var curYear = curDate.getFullYear();
+ 
+    // Gán vào thẻ HTML
+    document.getElementById('current-time').innerHTML = curDay + "/" + curMonth + "/" + curYear;
+</script>
+</body>
+</html>
