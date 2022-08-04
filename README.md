@@ -1,2 +1,2 @@
 # nhatquang2004.github.io
-simple website with html,css and js
+1 trang web đơn giản l
