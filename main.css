@@ -1,5 +1,4 @@
-
-  h1 {
+ h1 {
    
     font-family:  Courier;/* Đây là kiểu phông chữ mà bạn sẽ chọn,nhập font-family rồi tự chọn 1 kiểu chữ mà bạn thích,ở đây mình sẽ chọn kiểu Courier nhìn nó công nghệ tí =)))) */
     text-align: center;
@@ -20,11 +19,12 @@ h2 {
     
     font-family: courier;
     color: white;
+    text-align: center;
 }
   p {
     font-family: Courier;
     font-size: large;
-    text-align: justify;
+    text-align: center;
     color: white;
   }
   #introduce{
@@ -38,6 +38,7 @@ h2 {
   li{
     font-family: Courier;
     color: white;
+    text-align: center;
   }
   a{
     font-family: Courier;
@@ -111,4 +112,5 @@ h2 {
     z-index: 10000;
   }
   
+
 
