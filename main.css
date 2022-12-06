@@ -19,12 +19,10 @@ h2 {
     
     font-family: courier;
     color: white;
-    text-align: center;
 }
   p {
     font-family: Courier;
     font-size: large;
-    text-align: center;
     color: white;
   }
   #introduce{
@@ -38,12 +36,14 @@ h2 {
   li{
     font-family: Courier;
     color: white;
-    text-align: center;
   }
   a{
     font-family: Courier;
-    text-align: center;
     color: white;
+  }
+  #img{
+    image-rendering: pixelated;
+    float:right;
   }
   #second{
     font-family: Courier;
